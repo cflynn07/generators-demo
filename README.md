@@ -11,11 +11,11 @@ curl http://192.168.99.100:8080/
 ## Example
 
 ```sh
-~/w/invision ❯❯❯ curl -v http://docker.vm:8080\?expectedId\=0
+~/w/invision ❯❯❯ curl -v http://docker.vm:8080
 * Rebuilt URL to: http://docker.vm:8080
 *   Trying 192.168.99.100...
 * Connected to docker.vm (192.168.99.100) port 8080 (#0)
-> GET /?expectedId=0 HTTP/1.1
+> GET / HTTP/1.1
 > Host: docker.vm:8080
 > User-Agent: curl/7.43.0
 > Accept: */*
