@@ -12,7 +12,7 @@ curl http://192.168.99.100:8080/
 
 ```sh
 ~/w/invision ❯❯❯ curl -v http://docker.vm:8080\?expectedId\=0
-* Rebuilt URL to: http://docker.vm:8080/?expectedId=0
+* Rebuilt URL to: http://docker.vm:8080
 *   Trying 192.168.99.100...
 * Connected to docker.vm (192.168.99.100) port 8080 (#0)
 > GET /?expectedId=0 HTTP/1.1
