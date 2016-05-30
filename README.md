@@ -8,6 +8,8 @@ docker run -p 8080:8080 generators-demo
 curl http://192.168.99.100:8080/
 ```
 
+## Example
+
 ```sh
 ~/w/invision ❯❯❯ curl -v http://docker.vm:8080\?expectedId\=0
 * Rebuilt URL to: http://docker.vm:8080/?expectedId=0
